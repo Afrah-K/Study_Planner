@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.impute import SimpleImputer
+from sklearn.metrics import silhouette_score
 from sklearn.metrics import pairwise_distances_argmin_min
 
 def get_recommendation():
